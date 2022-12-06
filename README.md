@@ -1,15 +1,14 @@
 # FinalProjectBCP2022
 testing123
 # introToProgrammingFinalProjectP1
-# Path Attack...
-
-Using Djikstra's algorithm to get enemies to pass around walls.  
+# Stock Predictor using python and machine learning
 
 ## Description
 
-A top down 2d game where enemies chase the player around walls.  
+Predicting S&P 500 stock using historical data. 
 
-## Getting Started
+## Data Setup
+I imported pandas, numpy and matplotlib and used the the yfinance library.
 
 ### Dependencies
 
@@ -23,11 +22,12 @@ A top down 2d game where enemies chase the player around walls.
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
+We will use graphs to show current trends of S&P500 stock and also to predict what will happen as well.
+* 
 ```
 code blocks for commands
-```
+```!pip install yfinance
+import yfinance as yf
 
 ## Help
 
